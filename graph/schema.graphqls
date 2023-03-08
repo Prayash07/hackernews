@@ -10,6 +10,12 @@ type User{
   name: String!
 }
 
+type Employee{
+  id:ID!
+  salary: Int!
+  user: User!
+}
+
 input NewLink{
   title: String!
   address: String!

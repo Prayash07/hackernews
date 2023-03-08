@@ -2,6 +2,12 @@
 
 package model
 
+type Employee struct {
+	ID     string `json:"id"`
+	Salary int    `json:"salary"`
+	User   *User  `json:"user"`
+}
+
 type Link struct {
 	ID      string `json:"id"`
 	Title   string `json:"title"`
